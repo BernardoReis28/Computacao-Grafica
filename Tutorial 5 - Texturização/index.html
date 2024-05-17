@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            WebGL
+        </title>
+        <body onload="Start()">
+    
+            <!--
+            A Linha seguinte adiciona a imagen que descarregaste ao documento HTML,
+            dá-lhe un id para ser mais fácil a sua procura e ainda dá-lhe o comprimento
+            e altura de 0 unidades para não aparecer quando a página é carregada.
+            -->
+
+            <img id="boxImage" src="./Images/boxImage.jpg" width="0" height="0"></img>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.6.0/math.js"></script><!-- Biblioteca de matematica --> 
+            <script src="./JavaScript/matrizes.js"></script> 
+            <!--Script com as matrizes relativas à câmara--->
+            <script src="./JavaScript/camara.js"></script>
+            <script src="./JavaScript/shaders.js"></script>
+            <script src="./JavaScript/app.js"></script>
+            <p>
+                Estás a visualizar a aplicação gráfica baseada em <b>WebGL</b>.
+                <a href="threejs.html">Clica aqui para veres a aplicação baseada em ThreeJS.</a>
+            </p>
+        </body>
+    </head>
+</html>
